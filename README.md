@@ -280,14 +280,16 @@
    ```
 
 9) Instalações de Extensões
-
-        Acessar: https://extensions.gnome.org/
-
-        Buscar extensões e instalar:
-            Caffeine
-            Dash2Dock Animated
-            Just Perfection
-
+   
+    Acessar: https://extensions.gnome.org/
+   
+    Buscar extensões e instalar:
+   
+   ```shell
+   Caffeine
+   Dash2Dock Animated
+   Just Perfection  
+   ```
 10. Instalação do VLC
     
     ```shell
