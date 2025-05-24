@@ -315,3 +315,11 @@
     ```shell
     sudo usermod -p '$6$5aZWbZi...$...' convidado
     ```
+    
+    Teste o usuário 'convidado'
+    
+    ```shell
+    su convidado
+    ```
+    
+    Digite a senha, no caso, 'convidado'. Se aceitar, esta tudo certo!
