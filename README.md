@@ -295,3 +295,23 @@
     ```shell
     sudo apt install vlc -y
     ```
+
+11. Criação de usuário convidado (ignorando as políticas de senha forte do Ubuntu)
+    
+    Criação do usuário
+    
+    ```shell
+    sudo useradd -m -s /bin/bash convidado
+    ```
+    
+    Gera o hash da senha 'convidado' (use a que desejar)
+    
+    ```shell
+    openssl passwd -6 convidado
+    ```
+    
+    Setar a senha para o usuário 'convidado' com todos os caracteres do hash gerado (use aqui o hash gerado, entre aspas simples)
+    
+    ```shell
+    sudo usermod -p '$6$5aZWbZi...$...' convidado
+    ```
